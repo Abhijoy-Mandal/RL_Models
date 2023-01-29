@@ -1,0 +1,18 @@
+1) Takes in image, (1920, 1080), outputs a vector representing a keypress
+Standard game client runs at 240 fps
+
+Model 1:
+    look at 10 frames and previous keystroke using attention to generate a keystroke.
+    How would we get labelled data?
+
+Model 2:
+    Reinforcement learning, to maximize rewards.
+    possible rewards:
+    1) learn best rewards?
+    2) total points (calculated the way RP is calculated)
+    3) total points (calculated the way tourney points are calculated)
+    4) Damage+kills+position
+    (2 tries to emulate ranked, 3 emulates )
+
+First we make a RL algorithm for (my guess of process:)
+    1) have a generation solve
